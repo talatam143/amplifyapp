@@ -1,7 +1,12 @@
 {
   "features": {
-    "frontend-ios": {
-      "enablexcodeintegration": true
+    "graphqltransformer": {
+      "addmissingownerfields": true,
+      "validatetypenamereservedwords": true,
+      "useexperimentalpipelinedtransformer": false,
+      "enableiterativegsiupdates": true,
+      "secondarykeyasgsi": true,
+      "skipoverridemutationinputtypes": true
     },
     "auth": {
       "enablecaseinsensitivity": true,
